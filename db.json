@@ -1,0 +1,49 @@
+{
+  "participants": [
+    {
+      "id": "P001",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+62812345678",
+      "ticket_type": "VIP",
+      "checked_in": false,
+      "check_in_time": "null"
+    },
+    {
+      "id": "P002",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "+62823456789",
+      "ticket_type": "Regular",
+      "checked_in": false,
+      "check_in_time": null
+    },
+    {
+      "id": "P003",
+      "name": "Ahmad Rizal",
+      "email": "ahmad.rizal@example.com",
+      "phone": "+62834567890",
+      "ticket_type": "VIP",
+      "checked_in": false,
+      "check_in_time": null
+    },
+    {
+      "id": "P004",
+      "name": "Siti Nurhayati",
+      "email": "siti.nurhayati@example.com",
+      "phone": "+62845678901",
+      "ticket_type": "Regular",
+      "checked_in": true,
+      "check_in_time": "2023-10-15T08:30:45Z"
+    },
+    {
+      "id": "P005",
+      "name": "Budi Santoso",
+      "email": "budi.santoso@example.com",
+      "phone": "+62856789012",
+      "ticket_type": "Regular",
+      "checked_in": false,
+      "check_in_time": null
+    }
+  ]
+}
