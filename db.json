@@ -1,16 +1,66 @@
 {
+  "organizers": [
+    {
+      "id": 1,
+      "name": "Agentakota",
+      "events": [
+        {
+          "id": 101,
+          "title": "Networking Day for Startups",
+          "date": "10 Mar 2025",
+          "time": "13:00 - 16:00 WIB",
+          "tickets_sold": 75,
+          "check_ins": 50
+        },
+        {
+          "id": 102,
+          "title": "Tech Talks 2025",
+          "date": "18 Mar 2025",
+          "time": "10:00 - 14:00 WIB",
+          "tickets_sold": 90,
+          "check_ins": 60
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "DailyHotels",
+      "events": [
+        {
+          "id": 201,
+          "title": "Hotel Business Conference",
+          "date": "22 Mar 2025",
+          "time": "09:00 - 12:00 WIB",
+          "tickets_sold": 120,
+          "check_ins": 85
+        },
+        {
+          "id": 202,
+          "title": "Hospitality Management Workshop",
+          "date": "28 Mar 2025",
+          "time": "14:00 - 18:00 WIB",
+          "tickets_sold": 100,
+          "check_ins": 70
+        }
+      ]
+    }
+  ],
   "participants": [
     {
       "id": "P001",
+      "organizerId": 1,
+      "eventId": 101,
       "name": "John Doe",
       "email": "john.doe@example.com",
       "phone": "+62812345678",
       "ticket_type": "VIP",
-      "checked_in": false,
-      "check_in_time": "null"
+      "checked_in": true,
+      "check_in_time": "2025-03-12T03:13:29.271Z"
     },
     {
       "id": "P002",
+      "organizerId": 1,
+      "eventId": 101,
       "name": "Jane Smith",
       "email": "jane.smith@example.com",
       "phone": "+62823456789",
@@ -20,6 +70,8 @@
     },
     {
       "id": "P003",
+      "organizerId": 1,
+      "eventId": 102,
       "name": "Ahmad Rizal",
       "email": "ahmad.rizal@example.com",
       "phone": "+62834567890",
@@ -29,6 +81,8 @@
     },
     {
       "id": "P004",
+      "organizerId": 2,
+      "eventId": 201,
       "name": "Siti Nurhayati",
       "email": "siti.nurhayati@example.com",
       "phone": "+62845678901",
@@ -38,6 +92,8 @@
     },
     {
       "id": "P005",
+      "organizerId": 2,
+      "eventId": 202,
       "name": "Budi Santoso",
       "email": "budi.santoso@example.com",
       "phone": "+62856789012",
