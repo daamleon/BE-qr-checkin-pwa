@@ -55,7 +55,7 @@
       "phone": "+62812345678",
       "ticket_type": "VIP",
       "checked_in": true,
-      "check_in_time": "2025-03-12T03:13:29.271Z"
+      "check_in_time": null
     },
     {
       "id": "P002",
@@ -88,7 +88,7 @@
       "phone": "+62845678901",
       "ticket_type": "Regular",
       "checked_in": true,
-      "check_in_time": "2023-10-15T08:30:45Z"
+      "check_in_time": null
     },
     {
       "id": "P005",
