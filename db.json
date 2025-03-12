@@ -54,7 +54,7 @@
       "email": "john.doe@example.com",
       "phone": "+62812345678",
       "ticket_type": "VIP",
-      "checked_in": true,
+      "checked_in": false,
       "check_in_time": null
     },
     {
@@ -87,7 +87,7 @@
       "email": "siti.nurhayati@example.com",
       "phone": "+62845678901",
       "ticket_type": "Regular",
-      "checked_in": true,
+      "checked_in": false,
       "check_in_time": null
     },
     {
