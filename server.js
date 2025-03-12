@@ -61,6 +61,7 @@ server.patch("/events/:eventId/participants/:participantId", (req, res) => {
 // Gunakan router default JSON Server
 server.use(router);
 
-const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => console.log(`🔥 Server running on ${PORT}`));
-
+// Jalankan server di port 5000
+server.listen(5000, () => {
+  console.log("🔥 JSON Server running on http://localhost:5000");
+});
