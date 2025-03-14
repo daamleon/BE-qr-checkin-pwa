@@ -10,7 +10,8 @@
           "date": "10 Mar 2025",
           "time": "13:00 - 16:00 WIB",
           "tickets_sold": 75,
-          "check_ins": 50
+          "check_ins": 50,
+          "revenue": 2500000
         },
         {
           "id": 102,
@@ -18,7 +19,8 @@
           "date": "18 Mar 2025",
           "time": "10:00 - 14:00 WIB",
           "tickets_sold": 90,
-          "check_ins": 60
+          "check_ins": 60,
+          "revenue": 2500000
         }
       ]
     },
@@ -32,7 +34,8 @@
           "date": "22 Mar 2025",
           "time": "09:00 - 12:00 WIB",
           "tickets_sold": 120,
-          "check_ins": 85
+          "check_ins": 85,
+          "revenue": 2500000
         },
         {
           "id": 202,
@@ -40,7 +43,8 @@
           "date": "28 Mar 2025",
           "time": "14:00 - 18:00 WIB",
           "tickets_sold": 100,
-          "check_ins": 70
+          "check_ins": 70,
+          "revenue": 2500000
         }
       ]
     }
