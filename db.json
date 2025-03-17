@@ -11,6 +11,7 @@
           "time": "13:00 - 16:00 WIB",
           "tickets_sold": 75,
           "check_ins": 50,
+          "user_regist": 45,
           "revenue": 2500000
         },
         {
@@ -20,6 +21,7 @@
           "time": "10:00 - 14:00 WIB",
           "tickets_sold": 90,
           "check_ins": 60,
+          "user_regist": 50,
           "revenue": 2500000
         }
       ]
@@ -35,6 +37,7 @@
           "time": "09:00 - 12:00 WIB",
           "tickets_sold": 120,
           "check_ins": 85,
+          "user_regist": 78,
           "revenue": 2500000
         },
         {
@@ -44,6 +47,7 @@
           "time": "14:00 - 18:00 WIB",
           "tickets_sold": 100,
           "check_ins": 70,
+          "user_regist": 89,
           "revenue": 2500000
         }
       ]
