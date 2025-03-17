@@ -22,7 +22,7 @@
           "tickets_sold": 90,
           "check_ins": 60,
           "user_regist": 50,
-          "revenue": 2500000
+          "revenue": 3450000
         }
       ]
     },
@@ -38,7 +38,7 @@
           "tickets_sold": 120,
           "check_ins": 85,
           "user_regist": 78,
-          "revenue": 2500000
+          "revenue": 4200000
         },
         {
           "id": 202,
@@ -48,7 +48,7 @@
           "tickets_sold": 100,
           "check_ins": 70,
           "user_regist": 89,
-          "revenue": 2500000
+          "revenue": 3120000
         }
       ]
     }
