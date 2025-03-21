@@ -1,4 +1,30 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "name": "User A",
+      "email": "usera@example.com",
+      "password": "hashedpassword123",
+      "role": "user",
+      "organizerIds": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "User B",
+      "email": "userb@example.com",
+      "password": "hashedpassword456",
+      "role": "user",
+      "organizerIds": [2]
+    },
+    {
+      "id": 3,
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password": "hashedadminpassword",
+      "role": "admin",
+      "organizerIds": []
+    }
+  ],
   "organizers": [
     {
       "id": 1,
@@ -66,17 +92,6 @@
       "check_in_time": null
     },
     {
-      "id": "P002",
-      "organizerId": 1,
-      "eventId": 101,
-      "name": "Jane Smith",
-      "email": "jane.smith@example.com",
-      "phone": "+62823456789",
-      "ticket_type": "Regular",
-      "checked_in": false,
-      "check_in_time": null
-    },
-    {
       "id": "P003",
       "organizerId": 1,
       "eventId": 102,
@@ -121,17 +136,6 @@
       "check_in_time": null
     },
     {
-      "id": "P007",
-      "organizerId": 1,
-      "eventId": 101,
-      "name": "Michael Tan",
-      "email": "michael.tan@example.com",
-      "phone": "+62878901234",
-      "ticket_type": "Regular",
-      "checked_in": false,
-      "check_in_time": null
-    },
-    {
       "id": "P008",
       "organizerId": 1,
       "eventId": 102,
@@ -139,17 +143,6 @@
       "email": "dewi.lestari@example.com",
       "phone": "+62889012345",
       "ticket_type": "VIP",
-      "checked_in": false,
-      "check_in_time": null
-    },
-    {
-      "id": "P009",
-      "organizerId": 1,
-      "eventId": 102,
-      "name": "Arif Budiman",
-      "email": "arif.budiman@example.com",
-      "phone": "+62890123456",
-      "ticket_type": "Regular",
       "checked_in": false,
       "check_in_time": null
     },
@@ -165,78 +158,12 @@
       "check_in_time": null
     },
     {
-      "id": "P011",
-      "organizerId": 2,
-      "eventId": 201,
-      "name": "Hadi Prasetyo",
-      "email": "hadi.prasetyo@example.com",
-      "phone": "+62812345679",
-      "ticket_type": "Regular",
-      "checked_in": false,
-      "check_in_time": null
-    },
-    {
       "id": "P012",
       "organizerId": 2,
       "eventId": 202,
       "name": "Maya Putri",
       "email": "maya.putri@example.com",
       "phone": "+62823456780",
-      "ticket_type": "VIP",
-      "checked_in": false,
-      "check_in_time": null
-    },
-    {
-      "id": "P013",
-      "organizerId": 2,
-      "eventId": 202,
-      "name": "Kevin Halim",
-      "email": "kevin.halim@example.com",
-      "phone": "+62834567891",
-      "ticket_type": "Regular",
-      "checked_in": false,
-      "check_in_time": null
-    },
-    {
-      "id": "P014",
-      "organizerId": 1,
-      "eventId": 101,
-      "name": "Rahma Anjani",
-      "email": "rahma.anjani@example.com",
-      "phone": "+62845612345",
-      "ticket_type": "Regular",
-      "checked_in": false,
-      "check_in_time": null
-    },
-    {
-      "id": "P015",
-      "organizerId": 1,
-      "eventId": 102,
-      "name": "Dimas Setiawan",
-      "email": "dimas.setiawan@example.com",
-      "phone": "+62856723456",
-      "ticket_type": "VIP",
-      "checked_in": false,
-      "check_in_time": null
-    },
-    {
-      "id": "P016",
-      "organizerId": 2,
-      "eventId": 201,
-      "name": "Sari Wulandari",
-      "email": "sari.wulandari@example.com",
-      "phone": "+62867834567",
-      "ticket_type": "Regular",
-      "checked_in": false,
-      "check_in_time": null
-    },
-    {
-      "id": "P017",
-      "organizerId": 2,
-      "eventId": 202,
-      "name": "Indra Saputra",
-      "email": "indra.saputra@example.com",
-      "phone": "+62878945678",
       "ticket_type": "VIP",
       "checked_in": false,
       "check_in_time": null
