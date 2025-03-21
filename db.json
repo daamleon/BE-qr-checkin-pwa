@@ -14,7 +14,7 @@
       "email": "userb@example.com",
       "password": "hashedpassword456",
       "role": "user",
-      "organizerIds": [2]
+      "organizerIds": []
     },
     {
       "id": 3,
