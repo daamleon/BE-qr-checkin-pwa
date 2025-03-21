@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Agentakota",
+      "category": "Events",
       "events": [
         {
           "id": 101,
@@ -29,6 +30,7 @@
     {
       "id": 2,
       "name": "DailyHotels",
+      "category": "Hotels",
       "events": [
         {
           "id": 201,
