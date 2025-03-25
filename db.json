@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "name": "User A",
+      "name": "Example User A",
       "email": "usera@example.com",
       "password": "hashedpassword123",
       "role": "user",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "name": "User B",
+      "name": "Example User B",
       "email": "userb@example.com",
       "password": "hashedpassword456",
       "role": "user",
